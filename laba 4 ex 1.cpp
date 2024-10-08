@@ -104,32 +104,4 @@ int main() {
 	BubbleSortRows(arr, rows, cols);
 	PrintMatrix(arr, rows, cols);
 
-
-	/*int rows = 5, cols = 5;
-	int  matrix[5][100] = {
-		{1, 3 , 5,  3,  5},
-		{1, 3, 4 ,6 ,7 },
-		{1, 1,1,1,1},
-		{1,7,12,8,2},
-		{1, 3, 4, 4,  4}
-
-	};
-	printf("befor sorting \n");
-	for (int i = 0; i < rows; i++) {
-		for (int j = 0; j < cols; j++) {
-			printf("%d ", matrix[i][j]);
-		}
-		printf("\n");
-	}
-	BubbleSortRows(matrix, cols, rows);
-
-	printf("after sorting \n");
-	for (int i = 0; i < rows; i++) {
-		for (int j = 0; j < cols; j++) {
-			printf("%d ", matrix[i][j]);
-		}
-		printf("\n");
-	}*/
-
-
 }
