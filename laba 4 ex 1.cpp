@@ -100,7 +100,7 @@ int main() {
 
 	printf("Ваша не отсортированная матрица: \n");
 	PrintMatrix(arr, rows, cols);
-	printf("Ваша не отсортированная матрица: \n ");
+	printf("Ваша  отсортированная матрица: \n ");
 	BubbleSortRows(arr, rows, cols);
 	PrintMatrix(arr, rows, cols);
 
